@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://mtec.ethz.ch/news/corona/_jcr_content/par/fullwidthimage/image.imageformat.fullwidth.2136870596.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 40px;
+    color: #d22938;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: wheat;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    transition: 0.3s;
+    color: wheat;
+}
+
+.nav-area li a:hover {
+    color: #d22938;
+}
+
+.btn-area {
+    cursor: pointer;
+    color: wheat;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: #d22938;
+    transition: 0.3s;
+}
+
+.btn-area:hover {
+    color: #d22938;
+    background: wheat;
+    border-radius: 5px;
+}
+
+
+
+
+
+.breakingnews{
+    margin: 30px;
+    width: 1235px;
+    height: 1000px;
+    padding: 40px;
+    background-color: #d22938;
+    border-radius: 15px;
+    position: relative;
+    left: 120px;
+}
+.breakingnews img{
+    position: absolute;
+    width: 1155px;
+    height: 650px;
+    border: 8px solid #272727;
+    border-radius: 15px;
+    z-index: 2;
+}
+.bnh{
+    position: absolute;
+    width: 1155px;
+    height: 300px;
+    bottom: 40px;
+    background-color: #272727;
+    color: white;
+    border-radius: 15px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.bnh a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+}
+.mostread{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin: 30px;
+    width: 1435px;
+    height: 506px;
+    padding: 20px;
+    background-color: rgb(227, 200, 150);
+    border-radius: 15px;
+}
+.mostread h1{
+    text-align: center;
+    font-size: 50px;
+}
+.mostread .mr1{
+    background-color: #272727;
+    border-radius: 10px;
+    height: 396px;
+    width: 680px;
+    position: relative;
+}
+.mostread .mr1 .mrimg1{
+    border-radius: 10px;
+    border: 4px solid #272727;
+    height: 396px;
+}
+.mostread .mr1 .mrtext1{
+    text-align: left;
+    padding: 17px;
+    position: absolute;
+    top: 5px;
+    left: 320px;
+}
+.mostread .mr1 .mrtext1 a{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.mostread .mr2{
+    background-color: #272727;
+    border-radius: 10px;
+    height: 396px;
+    width: 680px;
+    position: absolute;
+    left: 730px;
+    top: 88px;
+}
+.mostread .mr2 .mrimg2{
+    border-radius: 10px;
+    border: 4px solid #272727;
+    height: 396px;
+    position: relative;
+    left: 365px;
+}
+.mostread .mr2 .mrtext2{
+    text-align: left;
+    padding: 17px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 355px;
+}
+.mostread .mr2 .mrtext2 a{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #f32e3f;
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+
+.coviz{
+    position: relative;
+    left: 50px;
+}
+
+.vl {
+    border-left: 3px solid #272727;
+    height: 220px;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+.explore {
+    position: absolute;
+    left: 400px;
+    top: 90px;
+}
+
+.quick-links {
+    position: absolute;
+    top: 130px;
+    left: 357px;
+}
+
+.quick-items {
+    list-style: none;
+}
+
+.quick-items a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+    transition: all .25s
+}
+
+.quick-items a:hover {
+    color: #272727;
+}
+
+.visit {
+    position: absolute;
+    left: 560px;
+    top: 90px;
+}
+
+.follow {
+    position: absolute;
+    left: 850px;
+    top: 55px;
+}
+
+.social-links {
+    position: absolute;
+    left: 865px;
+    top: 90px;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    margin: 5px;
+    font-size: 30px;
+    color: #272727;
+    transition: all .25s;
+}
+
+.social-items a:hover {
+    color: white;
+}
+
+.contact {
+    position: absolute;
+    left: 975px;
+    top: 78px;
+}
+
+.legal {
+    position: absolute;
+    left: 1280px;
+    top: 78px;
+}
+
+.legal a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+    transition: all .25s
+}
+
+.legal a:hover {
+    color: #272727;
+}
+
+.outer-footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #272727;
+}

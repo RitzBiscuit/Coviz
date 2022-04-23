@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://mtec.ethz.ch/news/corona/_jcr_content/par/fullwidthimage/image.imageformat.fullwidth.2136870596.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 40px;
+    color: #d22938;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: wheat;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    transition: 0.3s;
+    color: wheat;
+}
+
+.nav-area li a:hover {
+    color: #d22938;
+}
+
+.btn-area {
+    cursor: pointer;
+    color: wheat;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: #d22938;
+    transition: 0.3s;
+}
+
+.btn-area:hover {
+    color: #d22938;
+    background: wheat;
+    border-radius: 5px;
+}
+
+
+
+
+
+.tfnback {
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    width: 1230px;
+    height: 340px;
+    background-color: black;
+    opacity: 0.5;
+    top: 260px;
+    left: 150px;
+    border-radius: 20px;
+}
+
+.tfntext {
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    margin: 40px;
+    padding: 10px;
+    color: white;
+    font-size: 70px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    width: 1300px;
+}
+
+.image-container {
+    margin: 40px;
+    height: 750px;
+    width: 1425px;
+    position: relative;
+    left: 3.5px;
+    background-color: #d22938;
+    border-radius: 15px;
+    border: 5px solid #d22938;
+}
+
+.image-container::after {
+    padding: 30px;
+    font-size: 40px;
+    padding: 40px;
+    content: 'Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Coronaviruses are a type of virus. There are many different kinds, and some cause disease. A coronavirus identified in 2019, SARS-CoV-2, has caused a pandemic of respiratory illness, called COVID-19. Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age.';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 12px;
+    border: #991f29;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.image-container:hover::after {
+    opacity: 0.8;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.tdiv{
+    position: relative;
+    width: 100%;
+    height: 715px;
+}
+
+.text1{
+    background-color: #272727;
+    color: white;
+    padding: 30px;
+    width: 700px;
+    margin: 20px;
+    height: 675px;
+    position: relative;
+    top: 0px;
+    left: 23px;
+    border: 5px solid #d22938;
+    border-radius: 15px;
+    font-weight: 200;
+}
+
+.text1 p {
+    font-size: 25px;
+}
+
+.text2{
+    background-color: #272727;
+    color: white;
+    padding: 30px;
+    width: 700px;
+    margin: 20px;
+    height: 675px;
+    position: absolute;
+    top: -20px;
+    left: 745px;
+    border: 5px solid #d22938;
+    border-radius: 15px;
+    font-weight: 200;
+}
+
+.text2 p {
+    font-size: 25px;
+}
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #f32e3f;
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+
+.coviz{
+    position: relative;
+    left: 50px;
+}
+
+.vl {
+    border-left: 3px solid #272727;
+    height: 220px;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+.explore {
+    position: absolute;
+    left: 400px;
+    top: 90px;
+}
+
+.quick-links {
+    position: absolute;
+    top: 130px;
+    left: 357px;
+}
+
+.quick-items {
+    list-style: none;
+}
+
+.quick-items a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+    transition: all .25s
+}
+
+.quick-items a:hover {
+    color: #272727;
+}
+
+.visit {
+    position: absolute;
+    left: 560px;
+    top: 90px;
+}
+
+.follow {
+    position: absolute;
+    left: 850px;
+    top: 55px;
+}
+
+.social-links {
+    position: absolute;
+    left: 865px;
+    top: 90px;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items a {
+    margin: 5px;
+    font-size: 30px;
+    color: #272727;
+    transition: all .25s;
+}
+
+.social-items a:hover {
+    color: white;
+}
+
+.contact {
+    position: absolute;
+    left: 975px;
+    top: 78px;
+}
+
+.legal {
+    position: absolute;
+    left: 1280px;
+    top: 78px;
+}
+
+.legal a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+    transition: all .25s
+}
+
+.legal a:hover {
+    color: #272727;
+}
+
+.outer-footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #272727;
+}
